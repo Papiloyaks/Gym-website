@@ -1,3 +1,29 @@
 @import  'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+
+#h1{
+    font-family: sans-serif;
+    color: rgb(49, 41, 41);
+   
+}
+
+/* 
+.get{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 204px;
+
+position: absolute;
+width: 1329px;
+height: 524px;
+left: 56px;
+top: 188px;
+
+} */
+
+
