@@ -1,5 +1,5 @@
 import React from 'react'
-import shape from '../assets/Gym project/shape.png'
+import shape from '../assets/image/shape.png'
 
 const Home = () => {
   return (
