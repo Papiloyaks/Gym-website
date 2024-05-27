@@ -5,23 +5,33 @@ import girl from '../assets/image/girl.jpg'
 const Collection = () => {
   return (
     <>
-   <section>
-    <div>
-        <div className='grid grid-cols-2 gap-10 mx-10'>
-            <div className=''>
-            <img className='h-3/4 w-full' src={men}  alt="" />
-            <h1 className='men text-white mx-5 text-2xl font-serif'>Men’s Collection </h1>
-           <p> <button className='bg-red-300 p-2 text[rgb(191,144,70)]'>Shop Now</button></p>
-            </div>
-
-            <div className=''>
-                <img className='h-3/4 w-full' src={girl} alt="" />
-                <h1 className='men text-white mx-5  text-2xl font-serif'>Women’s Collection</h1>
-            <span><button className=''>Shop Now</button></span> 
-            </div>
+    <div className="flex flex-col md:flex-row justify-center items-center md:space-x-4 space-y-4 md:space-y-0 p-4">
+      {/* Men's Collection */}
+      <div className="relative w-full md:w-1/2">
+        <img id='girl'
+          src={men}
+          alt="Men's Collection"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end p-4 bg-gradient-to-t from-black to-transparent">
+          <h2 className="text-white relative -top-96 text-2xl md:text-3xl font-bold font-serif">Men's Collection</h2>
+          <button className="mt-2 px-4 py-2 bg-white text-[#bf9046] font-bold w-40 rounded hover:bg-black">Shop Now</button>
         </div>
+      </div>
+
+      {/* Women's Collection */}
+      <div className="relative w-full md:w-1/2">
+        <img id='girl'
+          src={girl}
+          alt="Women's Collection"
+          className="w-full object-cover"
+        />
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end p-4 bg-gradient-to-t from-black to-transparent">
+          <h2 className="text-white relative -top-96 text-2xl md:text-3xl font-bold font-serif">Women's Collection</h2>
+          <button className="mt-2 px-4 py-2 bg-white font-bold w-40 rounded text-[#bf9046] hover:bg-black">Shop Now</button>
+        </div>
+      </div>
     </div>
-    </section>
    
     </>
   )

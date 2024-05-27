@@ -4,16 +4,28 @@
 
 
 
-#h1{
-    font-family: sans-serif;
-    color: rgb(49, 41, 41);
-   
-}
+html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  #girl{
+    height: 550px;
+  }
 
-.men{
-    position: relative;
-    top: -105vh;
-}
+
 
 
 
