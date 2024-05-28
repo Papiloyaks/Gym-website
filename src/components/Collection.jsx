@@ -5,9 +5,9 @@ import girl from '../assets/image/girl.jpg'
 const Collection = () => {
   return (
     <>
-    <div className="flex flex-col md:flex-row justify-center items-center md:space-x-4 space-y-4 md:space-y-0 p-4">
+    <div className="flex flex-col md:flex-row justify-center items-center md:space-x-4 space-y-4 md:space-y-0 p-6">
       {/* Men's Collection */}
-      <div className="relative w-full md:w-1/2">
+      <div className="relative w-full md:w-1/2 ">
         <img id='girl'
           src={men}
           alt="Men's Collection"
