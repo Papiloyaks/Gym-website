@@ -24,7 +24,7 @@ const ProductGrid = () => {
         ))}
       </div>
       <div className="flex justify-center mt-6">
-        <button className="bg-gold-500 text-white py-2 px-4 rounded">Shop Now</button>
+        <button className="bg-[#bf9046] text-white hover:bg-black py-2 px-4 rounded">Shop Now</button>
       </div>
     </div>
   );
