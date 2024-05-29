@@ -25,6 +25,10 @@ html, body, #root {
     height: 550px;
   }
 
+  .box{
+    background-image: url(./assets/image/box.png);
+  }
+
 
 
 

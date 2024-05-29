@@ -61,6 +61,15 @@ const About = () => {
         </div>
       </div>
     </div>
+
+    {/* boxing */}
+    <div className="box relative flex items-center h-screen bg-cover p-5 mt-20 bg-center">
+      <div className="p-6 rounded-lg">
+        <p className="text-white text-3xl md:text-4xl font-semibold font-serif">
+          We provide you with comfortable <br /> sports bras to enhance maximum <br /> performance.
+        </p>
+      </div>
+    </div>
     </>
   )
 }
