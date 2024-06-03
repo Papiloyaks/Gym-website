@@ -29,6 +29,16 @@ html, body, #root {
     background-image: url(./assets/image/box.png);
   }
 
+  body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
 
 
 

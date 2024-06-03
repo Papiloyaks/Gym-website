@@ -4,6 +4,8 @@ import Collection from './components/Collection'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import ProductGrid from './components/ProductGrid'
+import Items from './components/Items'
+
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
    <Collection/>
    <About/>
    <ProductGrid/>
+   <Items/>
    
 
     </>
