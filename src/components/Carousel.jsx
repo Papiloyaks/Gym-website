@@ -12,7 +12,7 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <div className="relative w-96 max-w-4xl mx-auto">
+    <div className="relative w-full max-w-2xl top-10 mx-auto">
       <button onClick={handlePrev} className="absolute left-0 z-10 top-1/2 transform -translate-y-1/2 bg-[#bf9046] hover:bg-black text-white font-bold text-4xl py-2 px-5 rounded-full">
         &#8249;
       </button>
@@ -21,8 +21,8 @@ const Carousel = ({ items }) => {
           {items.map((item, index) => (
             <div key={index} className="w-full flex-shrink-0">
               <div className="p-3 bg-gray-200">
-                <img src={item.imageUrl} alt={item.title} className="w-96 object-cover rounded-lg mb-4" />
-                <h3 className="text-lg font-bold">{item.title}</h3>
+                <img src={item.imageUrl} alt={item.title} className="w-full object-cover rounded-lg mb-4" />
+                <h3 className="text-lg font-semibold font-serif">{item.title}</h3>
                 <p className="text-gray-600">{item.color}</p>
                 <p className="text-lg font-bold">{item.price}</p>
                 <button className="mt-2 bg-[#bf9046] hover:bg-black text-white font-medium py-2 px-5 rounded">

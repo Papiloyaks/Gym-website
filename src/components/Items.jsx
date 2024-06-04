@@ -26,7 +26,7 @@ function App() {
   ];
 
   return (
-    <div className="App">
+    <div className="App ">
       <h1 className="text-2xl font-bold mb-4 font-serif">Women Top picks</h1>
       <Carousel items={items} />
     </div>
