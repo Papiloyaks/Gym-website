@@ -12,7 +12,7 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <div className="relative w-full max-w-2xl top-10 mx-auto">
+    <div className="relative w-full max-w-2xl mx-auto">
       <button onClick={handlePrev} className="absolute left-0 z-10 top-1/2 transform -translate-y-1/2 bg-[#bf9046] hover:bg-black text-white font-bold text-4xl py-2 px-5 rounded-full">
         &#8249;
       </button>
