@@ -21,7 +21,7 @@ const Carousel = ({ slides }) => {
             index === currentIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          <img src={slide.imageUrl} alt="Slide" className="w-full h-full object-cover" />
+          <img id='img' src={slide.imageUrl} alt="Slide" className="w-full h-full" />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <h1 className="text-white text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold px-4">
               {slide.text}

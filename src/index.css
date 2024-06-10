@@ -17,7 +17,7 @@ html, body, #root {
     height: 100%;
   }
   
-  img {
+  .img {
     display: block;
   }
   
@@ -38,6 +38,10 @@ html, body, #root {
     height: 100vh;
     margin: 0;
   }
+
+  /* #img{
+    padding: 20px;
+  } */
 
 
 

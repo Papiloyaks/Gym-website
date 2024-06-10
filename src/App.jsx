@@ -15,11 +15,11 @@ const slides = [
     text: 'Comfortable Sports outfits helps you with better sports performance.',
   },
   {
-    imageUrl: 'path_to_your_image2.jpg',
+    imageUrl: 'src/assets/image/up.png',
     text: 'Achieve your fitness goals with our premium sportswear.',
   },
   {
-    imageUrl: 'path_to_your_image3.jpg',
+    imageUrl: 'src/assets/image/hill.png',
     text: 'Stay active and stylish with our new collection.',
   },
 ];
