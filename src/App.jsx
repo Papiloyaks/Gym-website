@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import ProductGrid from './components/ProductGrid'
 import Items from './components/Items'
 import CarouselTwo from './components/CarouselTwo';
+import MenSportsShorts from './components/MenSportsShorts '
 
 
 
@@ -38,6 +39,7 @@ function App() {
    <ProductGrid/>
    <Items/>
    <CarouselTwo slides={slides} />
+   <MenSportsShorts/>
    
    
    
