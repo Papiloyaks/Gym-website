@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const products = [
   {
     id: 1,
@@ -30,12 +31,12 @@ const MenSportsShorts = () => {
       <h2 className="text-2xl font-bold mb-4">Men Sports Shorts</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="bg-white rounded-lg shadow-lg p-4">
-            <img className="w-full h-48 object-cover mb-4" src={product.imageUrl} alt={product.name} />
+          <div key={product.id} className="bg-white rounded-lg shadow-lg p-5">
+            <img className=" h-48 lg:ms-10 object-cover mb-4 rounded hover:translate-x-1 cursor-pointer" src={product.imageUrl} alt={product.name} width={290} />
             <h3 className="text-xl font-semibold">{product.name}</h3>
             <p className="text-gray-500">{product.color}</p>
             <p className="text-gray-800 font-bold">{product.price}</p>
-            <button className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200">
+            <button className="mt-4  bg-[#bf9046]  text-white py-2 px-4 rounded hover:bg-black transition duration-500">
               Add to cart
             </button>
           </div>
@@ -45,4 +46,6 @@ const MenSportsShorts = () => {
   );
 };
 
+
 export default MenSportsShorts;
+
