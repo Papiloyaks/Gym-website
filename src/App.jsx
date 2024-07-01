@@ -8,6 +8,9 @@ import Items from './components/Items'
 import CarouselTwo from './components/CarouselTwo';
 import MenSportsShorts from './components/MenSportsShorts '
 import Testimonials from './components/Testimonials'
+import { Route, Routes } from 'react-router-dom'
+import WomenKit from './components/WomenKit'
+
 
 
 
@@ -33,6 +36,13 @@ function App() {
 
   return (
     <>
+     <Routes>
+      <Route path='/Navbar' Component={Navbar}/>
+      <Route path='/' Component={Home}/>
+      <Route path='/WomenKit' Component={WomenKit}/>
+      
+    </Routes>
+    
    <Navbar/>
    <Home/>
    <Collection/>
