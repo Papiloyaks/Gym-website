@@ -42,13 +42,23 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/womenkits" element={<WomenKit />} />
+          <Route path="/collection" element={<Collection />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/product" element={<ProductGrid />} />
+          <Route path="/Items" element={<Items />} />
+          <Route path="/carousel" element={<CarouselTwo slides={slides}/>} />
+          <Route path="/menkits" element={<MenSportsShorts />} />
+          
+
+
+
         </Routes>
-        <Collection />
-        <About />
-        <ProductGrid />
-        <Items />
-        <CarouselTwo slides={slides} />
-        <MenSportsShorts />
+        {/* <Collection /> */}
+        {/* <About /> */}
+        {/* <ProductGrid /> */}
+        {/* <Items /> */}
+        {/* <CarouselTwo slides={slides} /> */}
+        {/* <MenSportsShorts /> */}
         <Testimonials />
       </div>
     

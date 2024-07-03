@@ -1,6 +1,12 @@
 import React from 'react'
 import shape from '../assets/image/shape.png'
 import { Link } from "react-router-dom";
+import Collection from './Collection';
+import About from './About';
+import ProductGrid from './ProductGrid';
+import Items from './Items';
+import Carousel from './CarouselTwo';
+
 
 const Home = () => {
   return (
@@ -26,6 +32,14 @@ const Home = () => {
       </div>
      </section>
     </div>
+    <Collection/>
+    <About/>
+   <ProductGrid/>
+   <Items/>
+   
+  
+
+
     </>
   )
 }
