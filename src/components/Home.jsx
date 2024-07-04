@@ -5,7 +5,7 @@ import Collection from './Collection';
 import About from './About';
 import ProductGrid from './ProductGrid';
 import Items from './Items';
-import Carousel from './CarouselTwo';
+import MenSportsShorts from './MenSportsShorts ';
 
 
 const Home = () => {
@@ -28,14 +28,14 @@ const Home = () => {
         <div className=''>
     <img className='mt-10' src={shape} width={500}  alt="" />
     </div>
-      
-      </div>
-     </section>
+    </div>
+    </section>
     </div>
     <Collection/>
     <About/>
    <ProductGrid/>
    <Items/>
+   <MenSportsShorts/>
    
   
 

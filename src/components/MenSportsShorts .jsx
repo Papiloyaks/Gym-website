@@ -1,4 +1,6 @@
 import React from 'react';
+import CarouselTwo from './CarouselTwo';
+import Testimonials from './Testimonials';
 
 
 const products = [
@@ -25,8 +27,24 @@ const products = [
   },
 ];
 
+const slides = [
+  {
+    imageUrl: 'src/assets/image/hero.png',
+    text: 'Comfortable Sports outfits helps you with better sports performance.',
+  },
+  {
+    imageUrl: 'src/assets/image/up.png',
+    text: 'Achieve your fitness goals with our premium sportswear.',
+  },
+  {
+    imageUrl: 'src/assets/image/hill.png',
+    text: 'Stay active and stylish with our new collection.',
+  },
+];
+
 const MenSportsShorts = () => {
   return (
+    <>
     <div className="p-4">
       <h2 className="text-2xl font-bold mb-4">Men Sports Shorts</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -43,6 +61,12 @@ const MenSportsShorts = () => {
         ))}
       </div>
     </div>
+
+    <CarouselTwo slides={slides}/>
+    <Testimonials/>
+
+    </>
+  
   );
 };
 

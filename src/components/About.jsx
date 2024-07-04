@@ -4,7 +4,7 @@ import two from '../assets/image/two.png'
 import jump from '../assets/image/jump.png'
 import twoo from '../assets/image/twoo.png'
 import medal from '../assets/image/medal.png'
-import group from '../assets/image/group.png'
+import group from '../assets/image/van.png'
 import headphone from '../assets/image/headphone.png'
 
 
