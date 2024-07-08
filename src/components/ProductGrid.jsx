@@ -1,11 +1,11 @@
 import React from 'react';
 
 const products = [
-  { id: 1, image: 'src/assets/image/leg.png'},
+  { id: 1, image: 'src/assets/image/leg1.png'},
   { id: 2, image: 'src/assets/image/shortt.png'},
   { id: 3, image: 'src/assets/image/short.png'},
-  { id: 4, image: 'src/assets/image/leg.png' },
-  { id: 5, image: 'src/assets/image/shortt.png', label: 'BRA' },
+  { id: 4, image: 'src/assets/image/leg1.png' },
+  { id: 5, image: 'src/assets/image/shortt.png'},
   { id: 6, image: 'src/assets/image/short.png' },
 ];
 
